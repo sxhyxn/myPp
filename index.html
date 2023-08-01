@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H Y U N</title>
+    <link rel="shortcut icon" href="moon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--  -->
+
+<body style="background: url(img/Layer\ 0.png); background-size:contain;">
+    <!-- https://github.com/Prinzhorn/skrollr -->
+
+    <div class="ie">
+        <p>본 사이트는 Full CSS 3D가 사용된 페이지로 webkit기반 브라우저(크롬, 사파리 등)에서 확인하십시오.</p>
+        <h2>본 사이트는 포트폴리오용이며, 크롬, 엣지 또는 사파리에서 확인해주시길 바랍니다.
+            <br>감사합니다. 
+        </h2>
+    </div>
+    <!-- //ie -->
+
+    <div id="cursor">
+        <div class="cursor__inner"></div>
+    </div>
+
+    <div class="loading">
+        <div class="num-wrap">
+            <div class="num-box">
+                <ul class="num-list list1">
+                    <li class="num-item">A</li>
+                    <li class="num-item">B</li>
+                    <li class="num-item">C</li>
+                    <li class="num-item">D</li>
+                    <li class="num-item">E</li>
+                    <li class="num-item">F</li>
+                    <li class="num-item">G</li>
+                    <li class="num-item">H</li>
+                </ul>
+            </div>
+            <div class="num-box">
+                <ul class="num-list list2">
+                    <li class="num-item">A</li>
+                    <li class="num-item">B</li>
+                    <li class="num-item">C</li>
+                    <li class="num-item">D</li>
+                    <li class="num-item">E</li>
+                    <li class="num-item">F</li>
+                    <li class="num-item">G</li>
+                    <li class="num-item">H</li>
+                    <li class="num-item">I</li>
+                    <li class="num-item">J</li>
+                    <li class="num-item">K</li>
+                    <li class="num-item">L</li>
+                    <li class="num-item">N</li>
+                    <li class="num-item">M</li>
+                    <li class="num-item">O</li>
+                    <li class="num-item">P</li>
+                    <li class="num-item">Q</li>
+                    <li class="num-item">R</li>
+                    <li class="num-item">S</li>
+                    <li class="num-item">T</li>
+                    <li class="num-item">U</li>
+                    <li class="num-item">V</li>
+                    <li class="num-item">W</li>
+                    <li class="num-item">X</li>
+                    <li class="num-item">Y</li>
+                </ul>
+            </div>
+            <div class="num-box">
+                <ul class="num-list list3">
+                    <li class="num-item">A</li>
+                    <li class="num-item">B</li>
+                    <li class="num-item">C</li>
+                    <li class="num-item">D</li>
+                    <li class="num-item">E</li>
+                    <li class="num-item">F</li>
+                    <li class="num-item">G</li>
+                    <li class="num-item">H</li>
+                    <li class="num-item">I</li>
+                    <li class="num-item">J</li>
+                    <li class="num-item">K</li>
+                    <li class="num-item">L</li>
+                    <li class="num-item">N</li>
+                    <li class="num-item">M</li>
+                    <li class="num-item">O</li>
+                    <li class="num-item">P</li>
+                    <li class="num-item">Q</li>
+                    <li class="num-item">R</li>
+                    <li class="num-item">S</li>
+                    <li class="num-item">T</li>
+                    <li class="num-item">U</li>
+                </ul>
+            </div>
+            <div class="num-box">
+                <ul class="num-list list4">
+                    <li class="num-item">A</li>
+                    <li class="num-item">B</li>
+                    <li class="num-item">C</li>
+                    <li class="num-item">D</li>
+                    <li class="num-item">E</li>
+                    <li class="num-item">F</li>
+                    <li class="num-item">G</li>
+                    <li class="num-item">H</li>
+                    <li class="num-item">I</li>
+                    <li class="num-item">J</li>
+                    <li class="num-item">K</li>
+                    <li class="num-item">L</li>
+                    <li class="num-item">N</li>
+                </ul>
+            </div>
+            <span class="num-txt">.</span>
+        </div>
+    </div>
+    <!-- //loading -->
+
+    <div class="moon"
+    data-0="left:0%"
+    data-21250="left:95%;"
+    data-22750="left:95%; top:0%; "
+    data-24000="left:95%; top:0%; scale:1"
+    data-24700="left:58%; top:7%; scale:1.4"
+    >
+        <img src="img/moon.png" alt="moon">
+    </div>
+    <!-- //moon -->
+
+    <div class="notice" id="notice">
+        <p><span>방문해주셔서 감사합니다!</span>본 포트폴리오는 반응형이 아닌 <br> 크롬브라우저의 '1920 x 1080'<br> 해상도에 최적화된 사이트입니다. <br>많은 관심 부탁드립니다!</p>
+        <div class="noticeBox">
+            <input class="chbox" type="checkbox" id="cb" cursor-class="overlay">
+            <label class="hide" for="cb">24시간 보이지 않기</label>
+        </div>
+        <a href="#" class="close" cursor-class="overlay">
+            <i class="fas fa-times"></i>
+        </a>
+    </div>
+    <!-- //notice -->
+
+    <!-- <div class="number">000</div> -->
+
+    <div class="wrap">
+        
+        <section class="intro"
+        data-600="top: 0;"
+        data-1100="top:-100%"
+        >
+            <div id="clock"
+            data-600="right: 2%;"
+            data-1100="right:-50%">
+                <p class="date"></p>
+                <p class="time"></p>
+            </div>
+            <!-- //clock -->
+            <h2 class="intro_txt">
+                <span class="txt-line1" data-0="transform:translateX(0%)" data-700="transform:translateX(120%)">
+                    <span class="txt1 txt-motion">PORTFOLIO</span>
+                    <span class="txt2 txt-motion">&</span>
+                </span>
+                <span class="txt-line2" data-0="transform:translateX(0%)" data-700="transform:translateX(-120%)">
+                    <span class="txt1 txt-motion">WEB</span>
+                    <span class="txt2 txt-motion">PUBLISHER</span>
+                </span>
+            </h2>
+        </section>
+        <!-- //intro -->
+
+        <div class="titles"
+        data-600="top:100%; height: 100vh;"
+        data-1000="top:0%; height: 100vh;"
+        data-1500="top:0%; height: 20vh;"
+        data-3900="top:0%"
+        data-4500="top:-100%"
+        >
+            <p
+            data-600="font-size: 8vw;"
+            data-1000="font-size: 8vw;"
+            data-1500="font-size: 4vw;"
+            >WHO AM I ?</p>
+        </div>
+        <!-- //titles -->
+
+        <section class="self"
+        data-900="top:100%"
+        data-1500="top:0%"
+        data-3900="top:0%"
+        data-4500="top:-100%"
+        >
+            <div class="self_img"
+            data-900="scale:0.4;"
+            data-1700="scale:1;"
+            >
+                <div class="me">
+                    <div class="circle" data-splitting>Pubulisherleesohyun</div>
+                    <img src="img/Mask group.png" alt="me">
+                </div>
+            </div>
+            <!-- //self_img -->
+            <div class="self_desc">
+                <div class="desc_wrap"
+                data-1500="display: none;"
+                data-1600="display: block;"
+                >
+                    <div class="self_desc_card name"
+                    data-1500="width:0px;"
+                    data-2000="width:400px;"
+                    >
+                        <p
+                        data-1500="opacity:0"
+                        data-1800="opacity:0"
+                        data-2000="opacity:1"
+                        >SOHYUN, LEE / 이소현</p>
+                        <p
+                        data-1500="opacity:0"
+                        data-1800="opacity:0"
+                        data-2000="opacity:1"
+                        >1997.05.25</p>
+                        <p
+                        data-1500="opacity:0"
+                        data-1800="opacity:0"
+                        data-2000="opacity:1"
+                        >부산광역시 동구 범일동</p>
+                        <h2
+                        data-1500="opacity:0"
+                        data-1800="opacity:0"
+                        data-1900="opacity:1"
+                        >PROFILE</h2>
+                    </div>  
+                </div>
+                
+
+                <div class="desc_wrap"
+                data-2000="display: none;"
+                data-2100="display: block;"
+                >
+                    <div class="self_desc_card contact"
+                    data-2000="width:0px;"
+                    data-2500="width:400px;"
+                    >
+                        <p
+                        data-2000="opacity:0"
+                        data-2300="opacity:0"
+                        data-2500="opacity:1"
+                        >dlthgus419@naver.com</p>
+                        <p
+                        data-2000="opacity:0"
+                        data-2300="opacity:0"
+                        data-2500="opacity:1"
+                        >010-6239-4677</p>
+                        <div class="icons"
+                        data-2000="opacity:0"
+                        data-2300="opacity:0"
+                        data-2500="opacity:1"
+                        >
+                            <a href="#" cursor-class="overlay">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" cursor-class="overlay">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" cursor-class="overlay">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#" cursor-class="overlay">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                        <h2
+                        data-2000="opacity:0"
+                        data-2300="opacity:0"
+                        data-2400="opacity:1"
+                        >CONTACT</h2>
+                    </div>
+                </div>
+                
+
+                <div class="desc_wrap"
+                data-2500="display: none;"
+                data-2600="display: block;"
+                >
+                    <div class="self_desc_card study"
+                    data-2500="width:0px;"
+                    data-3000="width:400px;"
+                    >
+                        <p
+                        data-2500="opacity:0"
+                        data-2800="opacity:0"
+                        data-3000="opacity:1"
+                        >그린컴퓨터 아카데미</p>
+                        <p
+                        data-2500="opacity:0"
+                        data-2800="opacity:0"
+                        data-3000="opacity:1">[23.08] UI/UX 반응형 웹디자인& <br> 웹퍼블리셔(디자인&코딩)양성과정</p>
+                        <h2
+                        data-2500="opacity:0"
+                        data-2800="opacity:0"
+                        data-2900="opacity:1">ACADEMY</h2>
+                    </div>
+                </div>
+
+                <div class="desc_wrap"
+                data-3000="display: none;"
+                data-3100="display: block;"
+                >
+                    <div class="self_desc_card goals"
+                    data-3000="width:0px;"
+                    data-3500="width:400px;"
+                    >
+                        <p
+                        data-3000="opacity:0"
+                        data-3300="opacity:0"
+                        data-3500="opacity:1"
+                        >[16.02] 부산 데레사 여자 고등학교</p>
+                        <p
+                        data-3000="opacity:0"
+                        data-3300="opacity:0"
+                        data-3500="opacity:1"
+                        >[18.02] 경남정보대학교 <br>신소재화학공학과</p>
+                        <h2
+                        data-3000="opacity:0"
+                        data-3300="opacity:0"
+                        data-3400="opacity:1"
+                        >GRADUATE</h2>
+                    </div>
+                </div>
+                
+               
+            </div>
+            <!-- //self_desc -->
+        </section>
+        <!-- //self -->
+
+        <div class="titles"
+        data-3900="top:100%; height: 100vh;"
+        data-4500="top:0%; height: 100vh;"
+        data-5500="top:0%; height: 20vh;"
+        data-9300="top:0%"
+        data-10300="top:-100%"
+        >
+            <p
+            data-3900="font-size: 8vw;"
+            data-4500="font-size: 8vw;"
+            data-5500="font-size: 4vw;"
+            >ABOUT ME</p>
+        </div>
+        <!-- //titles -->
+
+        <section class="about"
+        data-5100="top:100%"
+        data-5600="top:0%"
+        data-9300="top:0%; left:0%"
+        data-10300="left:-110%"
+        >
+            <div class="skills"
+            data-5300="top:100%"
+            data-5800="top:0%"
+            >
+                <div class="box" cursor-class="overlay">
+                    <h1>SKILLS</h1>
+                    <a class="more" href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+                <img class="left" src="img/me/Group 6.png" alt="6"
+                data-5300="rotate:0deg"
+                data-5800="rotate:720deg"
+                >
+                <img class="right" src="img/me/Group 7.png" alt="7"
+                data-5300="rotate:0deg"
+                data-5800="rotate:720deg"
+                >
+            </div>
+            <!-- //skills -->
+            <div class="activity"
+            data-6000="top:140%"
+            data-6500="top:0%"
+            >
+                <div class="box" cursor-class="overlay">
+                    <h1>ACTIVITY</h1>
+                    <a class="more" href="#"><i class="fas fa-plus"></i></a>
+                </div>
+                <img class="left" src="img/me/Group 3.png" alt="3"
+                data-6000="rotate:0deg"
+                data-6500="rotate:720deg"
+                >
+                <img class="right" src="img/me/Group 8.png" alt="8"
+                data-6000="rotate:0deg"
+                data-6500="rotate:720deg"
+                >
+            </div>
+            <!-- //activity -->
+            <div class="personal"
+            data-6700="top:140%"
+            data-7200="top:0%"
+            >
+                <div class="box" cursor-class="overlay">
+                    <h1>PERSONALITY</h1>
+                    <a class="more" href="#"><i class="fas fa-plus"></i></a>
+                </div>
+                <img class="left" src="img/me/Group 2.png" alt="2"
+                data-6700="rotate:0deg"
+                data-7200="rotate:720deg"
+                >
+                <img class="right" src="img/me/Group 4.png" alt="4"
+                data-6700="rotate:0deg"
+                data-7200="rotate:720deg"
+                >
+            </div>
+            <!-- //personal -->
+            <div class="love"
+            data-7400="top:100%"
+            data-7900="top:0%"
+            >
+                <div class="box" cursor-class="overlay">
+                    <h1>LOVE</h1>
+                    <a class="more" href="#"><i class="fas fa-plus"></i></a>
+                </div>
+                <img class="left" src="img/me/Group 1.png" alt="1"
+                data-7400="rotate:0deg"
+                data-7900="rotate:720deg"
+                >
+                <img class="right" src="img/me/Group 5.png" alt="5"
+                data-7400="rotate:0deg"
+                data-7900="rotate:720deg"
+                >
+            </div>
+            <!-- //love -->
+        </section>
+        <!-- //about -->
+
+
+        <!-- popup -->
+        <div id="layer1">
+            <div class="ly_desc">
+                <h3>Keep Studying</h3>
+                <p>중요한건 꾸준히 배워야한다는 마음! <br>새로움에 거부감을 가지지 않게 배움에 능동적인 자세로 <br> 역량을 더 키워내 갈 것입니다.</p>
+            </div>
+            <div class="skills_logo">
+                <div class="box top-box">
+                    <div class="chart" data-percent="90"></div>
+                    <h2>HTML <br> $ <br>CSS</h2>
+                    <h3 data-rate="90">90</h3>
+                </div>
+                <!-- //box -->
+                <div class="box top-box">
+                    <div class="chart" data-percent="75"></div>
+                    <h2>JQUERY <br> & <br>Javascript</h2>
+                    <h3 data-rate="75">75</h3>
+                </div>
+                <!-- //box -->
+                <div class="box top-box">
+                    <div class="chart" data-percent="80"></div>
+                    <h2>PhotoShop <br> & <br>ILLUSTRATOR</h2>
+                    <h3 data-rate="80">80</h3>
+                </div>
+                <!-- //box -->
+                <div class="box">
+                    <div class="chart" data-percent="60"></div>
+                    <h2>REACT</h2>
+                    <h3 data-rate="60">60</h3>
+                </div>
+                <!-- //box -->
+                <div class="box">
+                    <div class="chart" data-percent="60"></div>
+                    <h2>Php</h2>
+                    <h3 data-rate="60">60</h3>
+                </div>
+                <!-- //box -->
+                <div class="box">
+                    <div class="chart" data-percent="60"></div>
+                    <h2>mySQL</h2>
+                    <h3 data-rate="60">60</h3>
+                </div>
+                <!-- //box -->
+                <div class="box">
+                    <div class="chart" data-percent="85"></div>
+                    <h2>Figma</h2>
+                    <h3 data-rate="85">85</h3>
+                </div>
+                <!-- //box -->
+                
+            </div>
+            <a href="#" class="close" cursor-class="overlay">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <!-- //1 -->
+        <div id="layer2">
+            <div class="ly_desc">
+                <h3>Keep Moving</h3>
+                <p>자유롭고 활발하게 움직이는 것을 좋아하는 저는 <br>주짓수라는 새로운 취미생활이 생겼고, <br>평소 지인들과 함께하는 여행, 피크닉,캠핑 등을 즐겨합니다.</p>
+            </div>
+            <div class="ly_sub">
+                <div class="contentWrap">
+                    <img class="img0" src="img/ab/cp1.png" alt="이미지0" >
+                    <img class="img1" src="img/ab/pc1.png" alt="이미지1" >
+                    <img class="img2" src="img/ab/jjs1.png" alt="이미지2" >
+                    <img class="img3" src="img/ab/tb1.png" alt="이미지3" >
+                </div>
+                <div class="contentWrap">
+                    <img class="img0" src="img/ab/cp2.png" alt="이미지0" >
+                    <img class="img1" src="img/ab/pc2.png" alt="이미지1" >
+                    <img class="img2" src="img/ab/jjs2.png" alt="이미지2" >
+                    <img class="img3" src="img/ab/tb2.png" alt="이미지3" >
+                </div>
+                <div class="contentWrap">
+                    <img class="img0" src="img/ab/cp3.png" alt="이미지0" >
+                    <img class="img1" src="img/ab/pc3.png" alt="이미지1" >
+                    <img class="img2" src="img/ab/jjs3.png" alt="이미지2" >
+                    <img class="img3" src="img/ab/tb3.png" alt="이미지3" >
+                </div>
+                <div class="contentWrap">
+                    <img class="img0" src="img/ab/cp4.png" alt="이미지0" >
+                    <img class="img1" src="img/ab/pc4.png" alt="이미지1" >
+                    <img class="img2" src="img/ab/jjs4.png" alt="이미지2" >
+                    <img class="img3" src="img/ab/tb4.png" alt="이미지3" >
+                </div>
+                <div class="buttonWrap">
+                    <!-- <a class="nextBtn" cursor-class="overlay">NEXT</a> -->
+                    <a class="pixel-grid nextBtn" cursor-class="overlay">
+                        <div class="text">CLICK!</div>
+
+                        <div class="transparent"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="transparent"></div>
+
+                        <div class="black"></div>
+                        <div class="lightg"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="lightg"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="lightg"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="white"></div>
+                        <div class="lightg"></div>
+                        <div class="black"></div>
+
+                        <div class="black"></div>
+                        <div class="grey"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="lightg"></div>
+                        <div class="grey"></div>
+                        <div class="black"></div>
+
+                        <div class="transparent"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="black"></div>
+                        <div class="transparent"></div>
+                    </a>
+                </div> 
+                
+            </div>
+            <a href="#" class="close" cursor-class="overlay">
+                <i class="fas fa-times"></i>
+            </a>
+            
+        </div>
+        <!-- //2 -->
+        <div id="layer3">
+            <div class="ly_desc">
+                <h3>Keep Playing</h3>
+                <p>현재의 기쁨과 행복과 사랑을 쟁취할 수 있는 순간은 <br> 지금뿐이라는 말이 있듯이 <br> 최대한 현재를 즐기며 삶을 살아가려고 합니다.</p>
+            </div>
+            <div class="ly_sub">
+                <div class="sub_top">
+                    <div class="top_video">
+                        <video src="img/ab/dog (online-video-cutter.com).mp4" width="260" height="260" type="video/mp4" autoplay loop muted></video>
+                    </div>
+                    <div class="top_txt">
+                        <div class="txtBox">
+                            <h3>ENFP</h3>
+                            <p>♬ 목표 : 창조하자!</p>
+                            <p>♬ 창의적인 일을 좋아하고 항상 새로운 가능성을 <br> 찾고 시도하는 편입니다.</p>
+                            <p>♬ 해결책을 내는 것에 만족을 느낍니다.</p>
+                            <p>♬ 꿈을 좇을 때 나타날 수 있는 위험 요소를 두려워 하지 않습니다.</p>
+                            <p>♬ 인생을 즐겁게 살려고 노력합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_bottom">
+                    <div class="bottom_video">
+                        <video src="img/ab/cafe.mp4" width="260" height="260" type="video/mp4" autoplay loop muted></video>
+                    </div>
+                    <div class="bottom_txt">
+                        <img src="img/ab/Mask group.png" alt="txt1">
+                        <img src="img/ab/Mask group (1).png" alt="txt2">
+                        <img src="img/ab/Mask group (2).png" alt="txt3">
+                        <img src="img/ab/Mask group (3).png" alt="txt4">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="close" cursor-class="overlay">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <!-- //3 -->
+        <div id="layer4">
+            <div class="ly_desc">
+                <h3>Keep Changing</h3>
+                <p>새롭고 다양한 것을 즐기는 저는 <br>새로운 환경에도 빨리 적응하는 편입니다. <br>정체되어 있지않고 트렌드에 맞게 빠르게 변화하는 직업인<br> 퍼블리셔에도 매력을 느끼게 되었습니다.</p>
+            </div>
+            <div class="ly_sub">
+                <div class="wrapper">
+                    <div class="box-area">
+                        <div class="box box-front">
+                            <video src="img/ab/IMG_8984.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                        <div class="box box-right">
+                            <video src="img/ab/IMG_8976.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                        <div class="box box-back">
+                            <video src="img/ab/IMG_8977.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                        <div class="box box-left">
+                            <video src="img/ab/IMG_8979.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                        <div class="box box-top">
+                            <video src="img/ab/IMG_8980.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                        <div class="box box-bottom">
+                            <video src="img/ab/IMG_8981.mp4" width="360" height="360" autoplay loop muted></video>
+                        </div>
+                    </div>
+                    <!-- //box-area -->
+        
+                    <div class="rotate-button">
+                        <button class="rotate-x-bottom" onclick="rotateXAxis(-1)"  cursor-class="overlay">
+                            <i class="fas fa-angle-down"></i>
+                        </button>
+                        <button class="rotate-x-top" onclick="rotateXAxis(1)" cursor-class="overlay">
+                            <i class="fas fa-angle-up"></i>
+                        </button>
+                        <div class="front" onclick="front()" cursor-class="overlay">
+                            <i class="fas fa-redo-alt"></i>
+                        </div>
+                        <button class="rotate-y-bottom" onclick="rotateYAxis(-1)" cursor-class="overlay">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                        <button class="rotate-y-top" onclick="rotateYAxis(1)" cursor-class="overlay">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                    </div>
+                    <!-- //button -->
+                </div>
+            </div>
+            <a href="#" class="close" cursor-class="overlay">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <!-- //4 -->
+        <!-- //popup -->
+        
+
+        <section class="project"
+        data-9300="left:100%;"
+        data-10300="left:0%;"
+        data-12000="left:0%"
+        >
+            <div class="pj_title"
+            data-11000="top:0%"
+            data-12000="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/wgwg2.png" alt="mgbx">
+                </div>
+                <img src="img/pj/wgwg-removebg-preview 1.png" class="showup">
+
+                <a href="https://wigglewiggles.netlify.app/" target="_blank" class="button blank" cursor-class="overlay"
+                data-11000="opacity:1"
+                data-11100="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen wgwg">
+                <div class="screen"
+                data-11000="left:0%"
+                data-12000="left:120%"
+                >
+                    <div class="desktop">
+                        <img src="img/pj/nb.png" alt="desktop">
+                        <div class="bg_video">
+                            <video src="img/pj/wgwg.mp4" width='600'height='380' loop muted></video>
+                        </div>
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-11000="bottom:0%"
+                data-12000="bottom:-100%"
+                >
+                    <h1>WIGGLE WIGGLE</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>R E N E W A L</h2>
+                            <p>일상의 명도와 채도를 높이는 <br>라이프 스타일 브랜드 <br> Always witty, <br>welcome to wiggle wiggle! <br>리뉴얼 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/jq.png" alt="jq">
+                            <img src="img/pj/lang/js.png" alt="js">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+        </section>
+
+        <section class="project"
+        data-11300="top:0%; opacity:0; display:none;"
+        data-11350="display:flex;"
+        data-12000="top:0%; opacity:1"
+        >
+            <div class="pj_title"
+            data-12700="top:0%"
+            data-13700="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/megabox2.png" alt="mgbx">
+                </div>
+                <img src="img/pj/mgicon.png" class="showup">
+
+                <a href="#" class="button btn_tablet" 
+                onclick='window.open("https://megaboxx.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=780,height=700")'
+                cursor-class="overlay"
+                data-12700="opacity:1"
+                data-12800="opacity:0"
+                >
+                    <span class="button-text">TABLET</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+
+                <a href="https://megaboxx.netlify.app" target="_blank" class="button blank" cursor-class="overlay"
+                data-12700="opacity:1"
+                data-12800="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+
+                <a href="#" class="button btn_mobile" 
+                onclick='window.open("https://megaboxx.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=400,height=700")'
+                cursor-class="overlay"
+                data-12700="opacity:1"
+                data-12800="opacity:0"
+                >
+                    <span class="button-text">MOBILE</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen mgbx">
+                <div class="screen"
+                data-12700="left:0%"
+                data-13700="left:120%"
+                >
+                    <div class="desktop">
+                        <div class="nb"></div>
+                        <img src="img/pj/nb.png" alt="desktop">
+                    </div>
+                    <div class="mobile">
+                        <div class="mb"></div>
+                        <img src="img/pj/mb.png" alt="mobile">
+                    </div>
+                    <div class="tablet">
+                        <div class="tb"></div>
+                        <img src="img/pj/tb.png" alt="tablet">
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-12700="bottom:0%"
+                data-13700="bottom:-100%"
+                >
+                    <h1>MEGABOX</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>C l o n e C o d i n g</h2>
+                            <p>기존 메가박스 페이지 참고 <br>Swiper.js를 이용한 무비차트, <br>해상도에 따른 이미지 적용,<br>API로 youtube영상 연결 등을 <br> 이용한 반응형 웹 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/jq.png" alt="jq">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+            
+        </section>
+
+        <section class="project"
+        data-13100="top:0%; opacity:0; display:none;"
+        data-13150="display:flex;"
+        data-13700="top:0%; opacity:1"
+        >
+            <div class="pj_title"
+            data-14400="top:0%"
+            data-15400="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/musign.png" alt="musign">
+                </div>
+                <img src="img/pj/musign-removebg-preview.png" class="showup">
+
+                <a href="#" class="button btn_tablet" 
+                onclick='window.open("https://muusign.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=780,height=700")'
+                cursor-class="overlay"
+                data-14400="opacity:1"
+                data-14500="opacity:0"
+                >
+                    <span class="button-text">TABLET</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+
+                <a href="https://muusign.netlify.app" target="_blank" class="button blank" class="button" cursor-class="overlay"
+                data-14400="opacity:1"
+                data-14500="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+
+                <a href="#" class="button btn_mobile"
+                onclick='window.open("https://muusign.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=400,height=700")'
+                cursor-class="overlay"
+                data-14400="opacity:1"
+                data-14500="opacity:0"
+                >
+                    <span class="button-text">MOBILE</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen ms">
+                <div class="screen"
+                data-14400="left:0%"
+                data-15400="left:120%"
+                >
+                    <div class="desktop">
+                        <div class="nb"></div>
+                        <img src="img/pj/nb.png" alt="desktop">
+                    </div>
+                    <div class="mobile">
+                        <div class="mb"></div>
+                        <img src="img/pj/mb.png" alt="mobile">
+                    </div>
+                    <div class="tablet">
+                        <div class="tb"></div>
+                        <img src="img/pj/tb.png" alt="tablet">
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-14400="bottom:0%"
+                data-15400="bottom:-100%"
+                >
+                    <h1>MUSIGN</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>r e n e w a l</h2>
+                            <p>기존 뮤자인 페이지 참고 <br>스크롤 기반 애니메이션 Scrolla.js를 이용해 <br>이미지와 텍스트에 애니메이션 적용한 <br> 반응형 웹 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/jq.png" alt="jq">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+            
+        </section>
+
+        <section class="project"
+        data-14800="top:0%; opacity:0; display:none;"
+        data-14850="display:flex;"
+        data-15400="top:0%; opacity:1"
+        >
+            <div class="pj_title"
+            data-16100="top:0%"
+            data-17100="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/hana.png" alt="hana">
+                </div>
+                <img src="img/pj/hana-removebg-preview.png" class="showup">
+
+                <a href="https://hanacards.netlify.app" target="_blank" class="button blank" cursor-class="overlay"
+                data-16100="opacity:1"
+                data-16200="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen hncd">
+                <div class="screen"
+                data-16100="left:0%"
+                data-17100="left:120%"
+                >
+                    <div class="desktop">
+                        <div class="nb"></div>
+                        <img src="img/pj/nb.png" alt="desktop">
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-16100="bottom:0%"
+                data-17100="bottom:-100%"
+                >
+                    <h1>HANA CARD</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>C l o n e C o d i n g</h2>
+                            <p>기존 하나카드 페이지 참고 <br>Slick.js를 이용한 이벤트,혜택 섹션에 <br> 슬라이드를 준 웹 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/jq.png" alt="jq">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+            
+        </section>
+
+        <section class="project"
+        data-16500="top:0%; opacity:0; display:none;"
+        data-16550="display:flex;"
+        data-17100="top:0%; opacity:1"
+        >
+            <div class="pj_title"
+            data-17800="top:0%"
+            data-18800="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/sushi.png" alt="sushi">
+                </div>
+                <img src="img/pj/sushi-removebg-preview.png" class="showup">
+
+                <a href="#" class="button btn_tablet" 
+                onclick='window.open("https://sushisushi.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=780,height=700")'
+                cursor-class="overlay"
+                data-17800="opacity:1"
+                data-17900="opacity:0"
+                >
+                    <span class="button-text">TABLET</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            
+                <a href="https://sushisushi.netlify.app/" target="_blank" class="button blank" cursor-class="overlay"
+                data-17800="opacity:1"
+                data-17900="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            
+                <a href="#" class="button btn_mobile" 
+                onclick='window.open("https://sushisushi.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=400,height=700")'
+                cursor-class="overlay"
+                data-17800="opacity:1"
+                data-17900="opacity:0"
+                >
+                    <span class="button-text">MOBILE</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen ss">
+                <div class="screen"
+                data-17800="left:0%"
+                data-18800="left:120%"
+                >
+                    <div class="desktop">
+                        <div class="nb"></div>
+                        <img src="img/pj/nb.png" alt="desktop">
+                    </div>
+                    <div class="mobile">
+                        <div class="mb"></div>
+                        <img src="img/pj/mb.png" alt="mobile">
+                    </div>
+                    <div class="tablet">
+                        <div class="tb"></div>
+                        <img src="img/pj/tb.png" alt="tablet">
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-17800="bottom:0%"
+                data-18800="bottom:-100%"
+                >
+                    <h1>SUSHI</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>r e n e w a l</h2>
+                            <p>다른 요소들에 의존적이지 않아 <br>jQuery 같은 다른 라이브러리를 추가하지 않고 <br>사용할 수 있는 scrollReveal.js로 <br>애니메이션을 적용한 <br>반응형 웹 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/js.png" alt="jq">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+            
+        </section>
+
+        <section class="project"
+        data-18200="top:0%; opacity:0; display:none;"
+        data-18250="display:flex;"
+        data-18800="top:0%; opacity:1"
+        >
+            <div class="pj_title"
+            data-19500="top:0%"
+            data-20500="top:-100%"
+            >
+                <div class="titleImg">
+                    <img src="img/pj/respon.png" alt="basic">
+                </div>
+                <img src="img/pj/basic_icon.png" class="showup">
+
+                <a href="#" class="button btn_tablet" 
+                onclick='window.open("https://responsivebasic.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=780,height=700")'
+                cursor-class="overlay"
+                data-19500="opacity:1"
+                data-19600="opacity:0"
+                >
+                    <span class="button-text">TABLET</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            
+                <a href="https://responsivebasic.netlify.app/" target="_blank" class="button blank" cursor-class="overlay"
+                data-19500="opacity:1"
+                data-19600="opacity:0"
+                >
+                    <span class="button-text">WEB</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            
+                <a href="#" class="button btn_mobile" 
+                onclick='window.open("https://responsivebasic.netlify.app", "웹표준모바일 사이트", "top=100,left=300,width=400,height=700")'
+                cursor-class="overlay"
+                data-19500="opacity:1"
+                data-19600="opacity:0"
+                >
+                    <span class="button-text">MOBILE</span>
+                    <span class="button-text foreground-text">CLICK</span>
+                </a>
+            </div>
+            <!-- //pj_title -->
+            <div class="pj_screen respon">
+                <div class="screen"
+                data-19500="left:0%"
+                data-20500="left:120%"
+                >
+                    <div class="desktop">
+                        <div class="nb"></div>
+                        <img src="img/pj/nb.png" alt="desktop">
+                    </div>
+                    <div class="mobile">
+                        <div class="mb"></div>
+                        <img src="img/pj/mb.png" alt="mobile">
+                    </div>
+                    <div class="tablet">
+                        <div class="tb"></div>
+                        <img src="img/pj/tb.png" alt="tablet">
+                    </div>
+                </div>
+                <!-- //screen -->
+                <div class="screenDesc"
+                data-19500="bottom:0%"
+                data-20500="bottom:-100%"
+                >
+                    <h1>RESPONSIVE</h1>
+                    <div class="desc_box">
+                        <div class="what btBox">
+                            <h2>C l o n e C o d i n g</h2>
+                            <p>이미지 갤러리형 플러그인 Lightgallery.js와<br> Slick.js를 이용한 이미지 슬라이드, <br>해상도에 따른 이미지를 적용한 <br>반응형 웹 사이트입니다.</p>
+                        </div>
+                        <div class="lang btBox">
+                            <img src="img/pj/lang/html.png" alt="html">
+                            <img src="img/pj/lang/css.png" alt="css">
+                            <img src="img/pj/lang/jq.png" alt="jq">
+                        </div>
+                    </div>
+                </div>
+                <!-- //screenDesc -->
+            </div>
+            <!-- //pj_screen -->
+            
+        </section>
+
+        <section class="other"
+        data-21250="top:50%"
+        data-23000="top:50%"
+        data-24000="top:-100%"
+        >
+            <div class="container"
+            data-19000="opacity:0; display:none"
+            data-19500="opacity:0; display:block"
+            data-20000="opacity:1;width:10px; height:10px;transform:rotate(0deg);background-color: rgb(129,73,188);border-radius: 50%"
+            data-20200="width:100px; height:100px;transform:rotate(0deg);background-color: rgb(129,73,188);border-radius: 100px"
+            data-20450="width:200px; height:200px;transform: rotate(90deg);background-color: rgb(148,98,201);border-radius: 70px"
+            data-20650="width:400px; height:400px;transform:rotate(180deg);background-color: rgb(167,125,211);border-radius: 70px"
+            data-20850="width:700px; height:700px;transform:rotate(360deg);background-color:rgba(189,153,226);border-radius: 70px"
+            data-21050="width:1000px; height:900px;transform:rotate(360deg);background-color:rgba(209,181,239);border-radius: 70px"
+            data-21250="width:1700px; height:850px;transform:rotate(360deg);background-color:rgba(241,228,255);border-radius: 70px"
+            >
+                <div class="other_pj"
+                data-21150="opacity:0"
+                data-21250="opacity:1">
+                    <div class="side">
+                        <h1>OTHER PROJECT</h1>
+                        <button id="defaultOpen" class="tab_mn" cursor-class="overlay" onclick="openpj(event,'etc')">
+                            <h2>ETC</h2>
+                        </button>
+                        <button class="tab_mn" cursor-class="overlay" onclick="openpj(event,'react')">
+                            <h2>REACT</h2>
+                        </button>
+                        <button class="tab_mn" cursor-class="overlay" onclick="openpj(event,'php')">
+                            <h2>PHP</h2>
+                        </button>
+                        
+                    </div>
+                    <!-- //side -->
+                    <div id="etc" class="contents">
+                        <div class="apple">
+                            <div class="ap_title">
+                                <h1>Airpods</h1>
+                                <div class="bg">
+                                    <img src="img/mok_bg_W.png" alt="bg">
+                                    <div class="bg_video other_video">
+                                        <video class="video_item" width='630'height='390' src="img/pj/AirPods.mp4" loop muted>
+                                        </video>
+                                    </div>
+                                    <!-- //video -->
+                                </div>
+                                <div class="hover">
+                                    <img src="img/pj/hover.png" alt="hover">
+                                </div>
+                            </div>
+                            <!-- //tt -->
+                            <div class="etc_desc">
+                                <h1>🌙 APPLE's Airpods Pro / CLONECODING</h1>
+                                <p>기존의 애플 페이지를 참고한 자바스크립트 스크롤 캔버스 애니메이션입니다.<br>각 프레임을 사용자의 스크롤 위치에 동기화해 사용자가 페이지를 <br>아래로 스크롤하거나 위로 스크롤 할 때 애니메이션을 재생할 수 있습니다.</p>
+                                <h1>🌙 NAVER's join the membership / CLONECODING</h1>
+                                <p>기존의 네이버 회원가입 페이지를 참고하였습니다. <br> 비밀번호, 이메일 등등 유효성 검사에 관한 자바스크립트 코드를 작성하고 <br> 조건에 맞지않으면 에러메세지를 출력하게 하였습니다.</p>
+                            </div>
+                        </div>
+                        <!-- //apple -->
+                        <div class="naver">
+                            <div class="na_title">
+                                <h1>Login Form</h1>
+                                <div class="bg">
+                                    <img src="img/mok_bg_P.png" alt="bg">
+                                    <div class="bg_site">
+                                        <img src="img/pj/naverjoin.png" alt="naver">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viewBtn">
+                                <div class="apBtn logoBtn">
+                                    <a href="https://myairpods.netlify.app/" target="_blank" class="blank" cursor-class="overlay">
+                                        <img src="img/pj/apple.png" alt="apBtn">
+                                    </a>
+                                </div>
+                                <div class="naBtn logoBtn">
+                                    <a href="https://naverjoin.netlify.app/" target="_blank" class="blank" cursor-class="overlay">
+                                        <img src="img/pj/naver.png" alt="naBtn">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //naver -->
+                    </div>
+                    <!-- //etc -->
+                    <div id="react" class="contents">
+                        <div class="react_desc">
+                            <h1>🌙 H & M</h1>
+                            <div class="desc_do">
+                                <h3>[TO DO LIST]</h3>
+                                <p>1. 로그인 버튼을 누른 후  Submit을 눌러보세요.</p>
+                                <p>2. 로그인 후 품목을 눌러 상세정보를 확인해보세요.</p>
+                                <p>3. 검색창에 궁금하신 품목을 검색해보세요.</p>
+                                <!-- <p>4. 화면의 크기에 따라 보이는 품목의 갯수가 달라집니다.</p> --> 
+                            </div>
+                            <div class="hashTag">
+                                <p># REACT</p>
+                                <p># BOOTSTRAP</p>
+                                <p># 심플한</p>
+                                <p># H&M</p>
+                            </div>
+                            <div class="btn_wrap">
+                                <div class="reBtn logoBtn">
+                                    <a href="https://hnnnm.netlify.app/" target="_blank" class="blank" cursor-class="overlay">
+                                        <img src="img/pj/hnm.png" alt="reBtn">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="link__svg" aria-labelledby="link1-title link1-desc">
+                            
+                                    <path id="link-circle" class="link__path" d="M 20, 100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" stroke="none" fill="none" />
+                            
+                                    <text class="link__text">
+                                        <textPath href="#link-circle" stroke="none">
+                                            REACT H&M BY HYUN REACT H&M BY HYUN REACT H&M BY HYUN
+                                        </textPath>
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="react_screen">
+                            <div class="bg">
+                                <img src="img/mok_bg_W.png" alt="bg">
+                                <div class="bg_video other_video">
+                                    <video class="video_item" width='917'height='570' src="img/pj/hnm.mp4" loop muted>
+                                    </video>
+                                </div>
+                                <!-- //video -->
+                            </div>
+                            <div class="hover">
+                                <img src="img/pj/hover.png" alt="hover">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //react -->
+                    <div id="php" class="contents">
+                        <div class="php_desc">
+                            <h1>🌙 RUBATTO</h1>
+                            <div class="desc_do">
+                                <h3>[TO DO LIST]</h3>
+                                <p>1. 회원가입 버튼을 눌러 회원가입을 해보세요.</p>
+                                <p>2. 기입하신 정보로 로그인 해보세요.</p>
+                                <p>3. 자유게시판에 들어가 댓글을 달아보세요. <br>본인이 쓴 글은 삭제 가능합니다.</p>
+                                <p>4. 개인정보수정을 눌러 개인정보를 수정해보세요.</p>
+                            </div>
+                            <div class="hashTag">
+                                <p># PHP</p>
+                                <p># MYSQL</p>
+                                <p># Classic</p>
+                                <p># 루바또</p>
+                            </div>
+                            <div class="btn_wrap">
+                                <div class="phpBtn logoBtn">
+                                    <a href="http://sxhyxn.dothome.co.kr/php/memberSite/index.php" target="_blank" class="blank" cursor-class="overlay">
+                                        <img src="img/pj/rubatto.png" alt="phpBtn">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="link__svg" aria-labelledby="link1-title link1-desc">
+                            
+                                    <path id="link-circle" class="link__path" d="M 20, 100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" stroke="none" fill="none" />
+                            
+                                    <text class="link__text">
+                                        <textPath href="#link-circle" stroke="none">
+                                            PHP RUBATTO BY HYUN PHP RUBATTO BY HYUN PHP RUBATTO BY HYUN
+                                        </textPath>
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="php_screen">
+                            <div class="bg">
+                                <img src="img/mok_bg_W.png" alt="bg">
+                                <div class="ru_gif">
+                                    <img src="img/pj/rubatto.gif" alt="rubatto">
+                                </div>
+                                <!-- //video -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //php -->
+                </div>
+            
+            </div>
+        </section>
+        
+        <div class="titles"
+        data-23000="top:100%; height: 100vh;"
+        data-23600="top:0%; height: 100vh;"
+        data-24600="top:0%; height: 20vh;"
+        >
+            <p
+            data-23000="font-size: 8vw;"
+            data-23600="font-size: 8vw;"
+            data-24600="font-size: 4vw;"
+            >CONTACT</p>
+        </div>
+        <!-- //titles -->
+
+        <section id="contact"
+        data-24000="top:100%;"
+        data-25000="top:0%;"
+        >
+            <div class="left_con">
+                <div class="end_img">
+                    <div class="me">
+                        <div class="circle2" data-splitting>Pubulisherleesohyun</div>
+                        <img src="img/Mask group.png" alt="me">
+                    </div>
+                </div>
+                <!-- //self_img -->
+                <div class="hj_name">
+                    <svg viewBox="0 0 960 300">
+                      <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">昭 弦</text>
+                      </symbol>
+                      <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                      </g>
+                    </svg>
+                </div>
+                <!-- //hj_name --><!-- 
+                <div class="end_moon"
+                data-24500="opacity:0"
+                data-24700="opacity:1"
+                >
+                    <img src="img/moon.png" alt="moon">
+                </div> -->
+            </div>
+            <div class="right_con">
+                <div class="con_box">
+                    <div class="cb_desc">
+                        <p>밝을 소, 활시위 현을 쓰는 제 이름은 <span>밝은 초승달</span>을 뜻합니다. <br> 반달과 초승달 같은 웃는 입모습을 가지고 항상 웃음 띈 얼굴, <br> 긍정적인 마음으로 살아가고 있습니다. <br> 웹사이트를 만들기 위해 혼자가 아닌 여러 명이 함께해야 하는 만큼 <br> 지금까지의 저의 적응력과 책임감, 긍정적인 모습을 통해 <br> 협력심을 발휘해 함께 성장하는 <span>웹 퍼블리셔 이소현</span>이 되겠습니다.<br><span>감사합니다.</span></p>
+                        <div class="icons"
+                        >
+                            <a href="https://www.instagram.com/5_sq_5" class="blank" target="_blank" cursor-class="overlay">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/sxhyxn" class="blank" target="_blank" cursor-class="overlay">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:dlthgus419@naver.com" class="blank" cursor-class="overlay">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="endbox">
+                    <div class="box__content">
+                        97
+                        <span>POSITIVE</span>
+                        05
+                        <span class="place">BUSAN</span>
+                        25
+                        <span class="another">HUMBLE</span>
+                        <span>FRIENDLY</span>
+                        <span>HONEST</span>
+                        1997
+                        <span class="another">ENTHUSIASTIC</span>
+                        05
+                        <span>CHEERFUL</span>
+                        <span class="another">OPTIMISTIC</span>
+                        love
+                        <span class="place">DONG-GU</span>
+                        25 <span>SOCIABLE</span>
+                        <span>LEE SOHYUN</span>
+                        <span>OPTIMISTIC</span>
+                        <span class="place">05</span>
+                        <span class="box__title">see U again</span>
+                        <span class="place">25</span>
+                        happy
+                        <span class="place">KOREA</span>
+                        97
+                        <span class="another">BEST</span>
+                        <span class="place">1997</span>
+                        05
+                        <span class="another">SOCIABLE</span>
+                        25
+                        <span>SINCERE</span>
+                        1997
+                        <span class="box__title box__title--bottom">Thank you for coming by</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- //wrap -->
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script>
+        var s = skrollr.init();
+
+        /* let number = document.querySelector('.number');
+
+        window.addEventListener("scroll", function () {
+            let wScroll = window.pageYOffset;
+            //스크롤내릴때 탑값 뿌려주기
+            console.log(wScroll)
+            //console.log(parseInt(wScroll)) -> 콘솔 값 소수점안나옴
+            number.innerHTML = parseInt(wScroll)
+        }); */
+    </script>
+</body>
+
+</html>
